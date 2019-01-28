@@ -1,0 +1,22 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class CameraController : MonoBehaviour
+{
+
+    public GameObject player;
+
+    private Vector3 offset;
+
+    //initialize
+    void Start()
+    {
+        offset = transform.position - player.transform.position;
+    }
+
+    //update is called once per frame
+    void LateUpdate()
+    {
+        transform.position = player.transform.position + offset;
+    }
+}
