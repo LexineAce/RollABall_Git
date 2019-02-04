@@ -8,7 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/BallGame01.unity
+  - enabled: 0
+    path: Assets/Scenes/BallGame01.unity
     guid: ada3da2f978464a3cb5b54d7e613be25
+  - enabled: 0
+    path: Assets/Scenes/RollABallChallenge.unity
+    guid: 714ea08b8901d4560a429a1d061d434d
+  - enabled: 1
+    path: Assets/Scenes/RollABallLevel.unity
+    guid: 1a104f9824b224c4c8c9088671b84f9a
   m_configObjects: {}
